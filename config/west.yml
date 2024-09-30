@@ -11,8 +11,5 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: mono36
-      remote: mono36
-      revision: main
   self:
     path: config
