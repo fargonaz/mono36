@@ -2,13 +2,15 @@
     "name": "mono36",
     "author": "cjh",
     "switchMount": "cherry",
+  },
+
     "layouts": {
       "LAYOUT": {
-        "layout":
-  [
+        "layout": [
     {
       "a": 7
     },
+  [
     "",
     "",
     "",
@@ -55,6 +57,7 @@
     "",
     ""
   ]
+    ]
    }
   }
-    }
+    
