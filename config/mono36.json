@@ -2,8 +2,10 @@
   {
     "name": "mono36",
     "author": "cjh",
-    "switchMount": "cherry"
-  },
+    "switchMount": "cherry",
+    "layouts": {
+      "LAYOUT": {
+        "layout":
   [
     {
       "a": 7
@@ -54,4 +56,6 @@
     "",
     ""
   ]
+}
+  }
 ]
