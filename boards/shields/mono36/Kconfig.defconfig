@@ -6,4 +6,7 @@ if SHIELD_MONO36
 config ZMK_KEYBOARD_NAME
     default "MONO36"
 
+config ZMK_BLE
+    default y
+
 endif
