@@ -110,10 +110,10 @@
         function {
             display-name = "Function";
             bindings = <
-&kp TAB  &trans  &kp END  &trans  &trans  &trans    &trans    &kp INS  &trans    &kp PG_UP
-&kp ESC  &trans  &kp DEL  &trans  &trans  &kp HOME  &kp LEFT  &kp UP   &kp DOWN  &kp RIGHT
-&trans   &trans  &trans   &trans  &trans  &trans    &trans    &trans   &trans    &kp PG_DN
-                          &trans  &trans  &trans              &trans   &trans    &trans
+&kp TAB  &trans  &kp END  &trans  &trans  &trans    &trans          &kp INS          &mmv MOVE_UP    &kp PG_UP
+&kp ESC  &trans  &kp DEL  &trans  &trans  &kp HOME  &kp LEFT        &kp UP           &kp DOWN        &kp RIGHT
+&trans   &trans  &trans   &trans  &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_RIGHT  &mmv MOVE_DOWN  &kp PG_DN
+                          &trans  &trans  &trans                    &trans           &trans          &trans
             >;
         };
 
