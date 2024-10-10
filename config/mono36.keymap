@@ -61,6 +61,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "FUNC";
             bindings = <&kp>, <&kp>;
+
             #binding-cells = <2>;
             tapping-term-ms = <250>;
             flavor = "balanced";
@@ -81,7 +82,7 @@
 &kp Q              &kp W        &kp E           &kp R         &kp T      &kp Y     &kp U         &kp I         &kp O          &kp P
 &rpi_a LEFT_GUI A  &rpi LALT S  &rpi_a LCTRL D  &rpi LSHFT F  &kp G      &kp H     &rpi RSHFT J  &rpi LCTRL K  &rpi_a LALT L  &rpi RGUI SEMI
 &kp Z              &kp X        &kp C           &kp V         &kp B      &kp N     &kp M         &kp COMMA     &kp DOT        &kp SLASH
-                                                &td_L_1_tg4   &lt 3 ESC  &kp BSPC                &kp ENTER     &kp SPACE      &func 2 SQT
+                                                &td_L_1_tg4   &lt 3 ESC  &kp BSPC                &kp ENTER     &kp SPACE      &lt 2 SQT
             >;
         };
 
@@ -98,10 +99,10 @@
         upper {
             display-name = "Upper";
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &bt BT_PRV    &bt BT_NXT    &trans  &trans      &trans
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &trans        &trans        &trans  &trans      &bootloader
-&kp F11  &kp F12  &trans  &trans  &trans   &bt BT_SEL 0  &bt BT_SEL 1  &trans  &bt BT_CLR  &bt BT_CLR_ALL
-                          &trans  &trans   &trans                      &trans  &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &bt BT_PRV    &bt BT_NXT    &trans  &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans        &trans        &trans  &trans      &bootloader
+&trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &bt BT_CLR  &bt BT_CLR_ALL
+                        &trans  &trans  &trans                      &trans  &trans      &trans
             >;
         };
 
